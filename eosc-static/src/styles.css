@@ -37,7 +37,7 @@ body {
 .eosc-common.top .left-links .header-logo {
   width: 84px;
   height: 32px;
-  background: url("assets/eosc-logo.svg") center no-repeat;
+  background: url("/assets/eosc-logo.svg") center no-repeat;
   display: block
 }
 
