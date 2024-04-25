@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  background: #000 url(assets/main-bg.jpg) no-repeat;
+  background: #EFF1FF;
   background-size: cover;
 }
 
@@ -451,36 +451,47 @@ ul.login-dropdown li {
   max-width: 1340px
 }
 
-
 .top-info-wrapper {
-  padding: 55px 0 30px;
-  color: #fff;
+  padding: 0;
+  color: #000;
+  background: #EFF1FF;
 }
 
 .top-info-wrapper .container {
   max-width: 900px;
-  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .top-info-wrapper .container .logo-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.top-info-wrapper .container .logo-column img {
+  max-width: 40%;
+  margin-bottom: 20px;
 }
 
 .top-info-wrapper .container .info-column {
-  padding-left: 50px;
+  text-align: center;
+  width: 100%;
 }
 
 .top-info-wrapper p {
-  color: #FFF;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 140%; /* 46.8px */
-  letter-spacing: -0.72px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
 }
 
 .top-info-wrapper a {
-  text-decoration: underline;
-  color: #fff;
+  text-decoration: none;
+  color: #0000FF;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 992px) {
